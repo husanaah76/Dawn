@@ -3,15 +3,15 @@
 
 # Core Settings
 # ------------
-threads: 10                    # Number of concurrent threads to run (minimum: 1)
+threads: 1                    # Number of concurrent threads to run (minimum: 1)
 keepalive_interval: 120        # How often to send keepalive signal (in seconds)
 referral_code: "hegbhf"        # Your referral code for the application
 
 # Captcha Settings
 # ---------------
 captcha_module: 2captcha       # Captcha service to use: '2captcha' or 'anticaptcha'
-two_captcha_api_key: ""        # API key for 2captcha service
-anti_captcha_api_key: ""       # API key for anti-captcha service
+two_captcha_api_key: "c166022dff5f9c60a3219e6912dc5247"        # API key for 2captcha service
+anti_captcha_api_key: "CAP-A2D8248A4BA2BDEB20D309913FBD6C34"       # API key for anti-captcha service
 
 # Startup Delay Configuration
 # -------------------------
@@ -23,7 +23,7 @@ delay_before_start:
 # --------------------------
 imap_settings:
   # Common email providers and their IMAP servers
-  gmail.com: imap.gmail.com          # Google Mail
+  gmail.com: asadqalbysekumpul@gmail.com          # Google Mail
   yahoo.com: imap.mail.yahoo.com     # Yahoo Mail
   outlook.com: imap-mail.outlook.com  # Microsoft Outlook
   hotmail.com: imap-mail.outlook.com  # Microsoft Hotmail
